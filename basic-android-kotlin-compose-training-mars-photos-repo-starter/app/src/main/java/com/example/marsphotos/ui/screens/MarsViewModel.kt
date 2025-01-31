@@ -15,6 +15,8 @@
  */
 package com.example.marsphotos.ui.screens
 
+
+import MarsPhotosRepository
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -25,8 +27,6 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.marsphotos.MarsPhotosApplication
-import com.example.marsphotos.data.MarsPhotosRepository
-import com.example.marsphotos.model.MarsPhoto
 import kotlinx.coroutines.launch
 import retrofit2.HttpException
 import java.io.IOException
